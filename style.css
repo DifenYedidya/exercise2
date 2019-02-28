@@ -1,0 +1,66 @@
+body {
+    background: #5c3fff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7abfec , #068efd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4d71e9 , #86b5f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    }
+    input{
+      border: none;
+    }
+    button {
+      height: 50px;
+      width: 50px;
+      margin: 10px 4px;
+      padding: 5px;
+      box-shadow: inset 1px 1px 50px  rgba(74, 112, 238, 0.205);
+      border: none !important;
+    }
+    *:focus {
+        outline: 0 !important;
+    }
+    #allClear {
+      box-shadow: inset 1px 1px 50px  #990000;
+      border: none;
+    }
+    #clear {
+      box-shadow: inset 1px 1px 50px  #cc6600;
+      border: none;
+    }
+    #equals{
+      box-shadow: inset 1px 1px 50px #08532d;
+      border: none;
+    }
+    /* Hidden button for formatting sake */
+    #blank {
+      visibility: hidden;
+    }
+    .calcBG {
+      width: 280px;
+      background-color: rgb(11, 248, 248);
+      border-radius: 20px;
+      padding: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      box-shadow: inset 1px 1px 50px #000;
+      margin: 25vh auto;
+    }
+    .screen {
+      height: 40px;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px 2px;
+      font-size: 16px;
+      font-weight: bold;
+      
+    
+    background: #9dbdd6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a5c2da , #4bc8e7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b8c2ca , #63c9e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+      box-shadow: 0px 4px  #187974 inset;
+      
+    }
+    small {
+      color: #fff;
+      font-weight: bold;
+    }
+    
